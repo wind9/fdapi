@@ -79,6 +79,7 @@ def run():
 
 
 if __name__ == '__main__':
+    time.sleep(1)
     global q, log, charge_args
     q = Queue()
     log = get_log()
