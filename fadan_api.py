@@ -10,7 +10,6 @@ import hashlib
 
 
 volume_dir = os.path.join(os.path.dirname(__file__), 'volume')
-print(volume_dir)
 if not os.path.exists(volume_dir):
     os.mkdir(volume_dir)
 log_file = os.path.join(volume_dir, 'fadan.log')
